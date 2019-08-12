@@ -24,7 +24,7 @@ int main(int argc, char **argv)
     char *setting_type;
 
     if (4 != argc) {
-        print_usage("lcfglookup");
+        print_usage("libconfig-lookup");
         exit(0);
     }
 
