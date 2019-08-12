@@ -25,6 +25,6 @@ Example
 If we have a configuration file *sample.cfg*:
 
 ```bash
-lcfglookup sample.cfg users.[0].surnme string
+libconfig-lookup sample.cfg users.[0].surnme string
 ```
 This example matches extraction of 'surname' setting of first user in 'users' group.
