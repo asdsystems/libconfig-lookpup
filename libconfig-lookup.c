@@ -8,7 +8,7 @@ void print_usage(char *prg)
     fprintf(stderr, "\nUsage: %s <file> <path> <type>\n", prg);
     fprintf(stderr, "file - Libconfig syntax compatybile file.\n");
     fprintf(stderr, "path - Path to the exact setting.\n");
-    fprintf(stderr, "type - Type of setting [int|int64|float|bool].\n");
+    fprintf(stderr, "type - Type of setting [int|int64|float|bool|string].\n");
     fprintf(stderr, "Examples:\n");
     fprintf(stderr, "%s sample.cfg users.[0].surnme string (matches 'surname' of first user in 'users' group)\n", prg);
     fprintf(stderr, "\n");
